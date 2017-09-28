@@ -8,17 +8,14 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
 
  <!--  GOOGLE FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Dancing+Script|Sacramento" rel="stylesheet">
 
 <!--   JAVASCRIPT -->
   <script type="text/javascript" src="js/mdl/material.min.js"></script>
 </head>
 
 <body>
-
-
 <div class="demo-layout-transparent mdl-layout mdl-js-layout">
-
   <header class="mdl-layout__header mdl-layout__header--transparent">
     <div class="mdl-layout__header-row" id="siteHeader">
       <div class="mdl-layout-spacer"></div>
@@ -30,20 +27,22 @@
       <div class="mdl-layout-spacer"></div>
       <!-- Navigation -->
       <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
-        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">About</a>
+        <a class="mdl-navigation__link" href="">Services</a>
+        <a class="mdl-navigation__link" href="">Contact</a>
+        <a class="mdl-navigation__link" href="">Intake Form</a>
       </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title" style="text-align: center;">Title</span>
+    <span class="mdl-layout-title" style="text-align: center;">
+    <img id="siteHeaderImg" src="images/header2.svg">
+  </span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
-      <a class="mdl-navigation__link" href="">Link</a>
+      <a class="mdl-navigation__link" href="">About</a>
+      <a class="mdl-navigation__link" href="">Services</a>
+      <a class="mdl-navigation__link" href="">Contact</a>
+      <a class="mdl-navigation__link" href="">Intake Form</a>
     </nav>
   </div>
 
@@ -57,7 +56,7 @@
     </div>
       <!-- BEGIN CONTENT AREA -->
       <div id="buildSection" class="mdl-grid">
-        <div class="mdl-cell mdl-cell--6-col">
+        <div class="mdl-cell mdl-cell--8-col">
           <div class="demo-card-wide mdl-card mdl-shadow--2dp" id="letsBuild">
             <div class="mdl-card__title">
               <h2 class="mdl-card__title-text">Let's Build</h2>
@@ -65,11 +64,11 @@
             <div class="mdl-card__supporting-text">
               At Addison's Studio, it is understood that running a small business is hard work. I know every second for you is valuable, so my goal is to help take the hassle out of worrying about your website, giving you more time to focus on your customers and building your business.
               <br><br>
-              Addison's Studio helps small businesses grow through the right channels, desiging each aspect of your site with your brand at the top of our mind. I know that each brand has a unique story to tell, and I love that! Send over an email, and we will get started on bringing that story to life together.
+              Addison's Studio helps small businesses grow through the right channels by desiging each aspect of your site with your brand top of mind. I know that each brand has a unique story to tell, and I love that! Send over an email, and we will get started on bringing that story to life together.
             </div>
           </div>
         </div>
-        <div class="mdl-cell mdl-cell--5-col mdl-cell--1-offset">
+        <div class="mdl-cell mdl-cell--4-col">
           <div class="demo-card-wide mdl-card mdl-shadow--2dp" id="getInTouch">
             <div class="mdl-card__title">
               <h2 class="mdl-card__title-text">Get in Touch</h2>
@@ -90,20 +89,40 @@
           </div>
         </div>
       </div>
-      <div class="mdl-cell mdl-cell--4-col">
-        <img id="offeringImg" src="images/development.png">
+      <div class="mdl-grid" id="servicesArea">
+        <div class="mdl-cell mdl-cell--12-col" id="servicesTitle">
+          services
+        </div>
+        <div class="mdl-cell mdl-cell--4-col" id="servicesOffer">
+          <div id="offeringImg">
+            <img src="images/icon_development.svg">
+            <p>DEVELOPMENT</p>
+          </div>
       </div>
-      <div class="mdl-cell mdl-cell--4-col">
-        <img id="offeringImg" src="images/development.png">
+      <div class="mdl-cell mdl-cell--4-col" id="servicesOffer">
+        <div id="offeringImg">
+            <img src="images/icon_consulting.svg">
+            <p>CONSULTING</p>
+          </div>
       </div>
-      <div class="mdl-cell mdl-cell--4-col">
-        <img id="offeringImg" src="images/development.png">
+      <div class="mdl-cell mdl-cell--4-col" id="servicesOffer">
+        <div id="offeringImg">
+          <img src="images/icon_logo_design.svg">
+          <p>LOGO DESIGN</p>
+        </div>
+      </div>
       </div>
 
 
+<footer class="siteFooter">
+  Testing testing testing
+</footer>
   </main>
 </div>
 
 
+
+
 </body>
+
 </html>

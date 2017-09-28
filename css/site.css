@@ -1,12 +1,31 @@
+* {
+  margin: 0;
+}
 
+html, body {
+  height: 100%;
+}
+
+.demo-layout-transparent {
+  min-height: 100%;
+  margin-bottom: -80px;
+}
+
+.demo-layout-transparent:after {
+  content: "";
+  display: block;
+}
 
 #buildSection {
-  background-color: #80b3a7;
-  color: white;
+ /* background-color: #80b3a7;
+  color: white;*/
 }
 
 #buildSection .demo-card-wide {
   background: none;
+  background-color: #80b3a7;
+  width: 80%;
+  margin-left: 5%;
 }
 
 #buildSection .mdl-card__title-text {
@@ -22,21 +41,40 @@
 }
 
 #letsBuild {
-  width: 100%;
+  width: 80%;
 }
 
 #getInTouch {
-  width: 100%;
+  width: 80%;
 }
 
 #getInTouch .mdl-card__supporting-text button {
   background-color: white;
   color: #80b3a7;
+  float: right;
 }
 
 #getInTouch .mdl-card__supporting-text button:hover {
   color: white;
   background-color: #e6e6e6;
+}
+
+#servicesArea {
+  background-color: #e6e6e6;
+  margin:5%;
+}
+
+#servicesOffer:hover {
+  background-color: white;
+  opacity: .8;
+}
+
+#servicesTitle {
+  text-align: center;
+  font-size: 4em;
+  font-family: 'Dancing Script', cursive;
+  padding: 3%;
+  color: #fff;
 }
 
 #siteHeader {
@@ -61,8 +99,14 @@
 
 #offeringImg {
   height: 100%;
-  width: 50%;
-  padding-left: 25%;
+  width: 100%;
+}
+
+#offeringImg p {
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Open Sans Condensed', sans-serif;
+  padding: 3%;
 }
 
 
@@ -70,3 +114,24 @@
 .mdl-layout__drawer-button .material-icons {
   color: black;
 }
+
+.siteFooter {
+  background-color: #80b3a7;
+  color: white;
+  height: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
